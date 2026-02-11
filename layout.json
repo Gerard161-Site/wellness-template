@@ -4,7 +4,10 @@
     "sections": [
         {
             "type": "HeroFullScreen",
-            "id": "hero"
+            "id": "hero",
+            "config": {
+                "textAlign": "left"
+            }
         },
         {
             "type": "ValueProps",
