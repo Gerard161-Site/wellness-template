@@ -48,17 +48,9 @@
   box-shadow: 0 4px 16px hsl(var(--tenant-color-primary) / 0.3);
 }
 
-/* Light theme: hero needs dark overlay so white text is readable */
-.template-wellness-nature section:first-of-type::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: 5;
-  background: linear-gradient(180deg,
-      hsl(var(--tenant-color-secondary) / 0.55) 0%,
-      hsl(var(--tenant-color-heading) / 0.7) 60%,
-      hsl(var(--tenant-color-heading) / 0.88) 100%);
-  pointer-events: none;
+/* Light theme: override background within hero so component overlay fades to dark (not white) */
+.template-wellness-nature section:first-of-type {
+  --tenant-color-background: 30 26% 15%;
 }
 
 /* Light theme: footer needs dark background for contrast */
