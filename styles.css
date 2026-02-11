@@ -53,19 +53,13 @@
   --tenant-color-background: 30 26% 15%;
 }
 
-/* Light theme: footer needs dark background for contrast */
+/* Light theme: footer needs dark background for contrast.
+   FooterFull uses inline style reading --tenant-color-surface and --tenant-color-heading,
+   so we override the CSS vars inside the footer element rather than fighting inline styles. */
 .template-wellness-nature footer {
-  background-color: hsl(var(--tenant-color-secondary)) !important;
-  color: white !important;
-}
-
-.template-wellness-nature footer a {
-  color: hsl(var(--tenant-color-background)) !important;
-}
-
-.template-wellness-nature footer h3,
-.template-wellness-nature footer h4 {
-  color: white !important;
+  --tenant-color-surface: 30 26% 15%;
+  --tenant-color-background: 30 26% 15%;
+  --tenant-color-heading: 0 0% 100%;
 }
 
 /* Card hover effect */
