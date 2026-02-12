@@ -2,7 +2,7 @@
   "template": "wellness-nature",
   "slug": "wellness-nature",
   "logoPath": null,
-  "heroImagePath": "wellness-hero.jpg",
+  "heroImagePath": "assets/wellness-hero.jpg",
   "heroVideoPath": null,
   "primaryColor": "79 51% 52%",
   "fontFamily": "'Lora', serif",
