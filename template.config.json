@@ -2,55 +2,16 @@
   "id": "wellness-nature",
   "slug": "wellness-nature",
   "name": "Wellness & Nature",
-  "description": "A serene, organic template featuring natural earth tones, spacious layouts, and a focus on holistic wellness. Perfect for wellness centers, natural health products, and organic brands seeking a calming, authentic presence.",
-  "version": "2.0.0",
-  "author": "BudStack Platform",
+  "description": "A serene, organic template featuring natural earth tones, spacious layouts, and a focus on holistic wellness. Perfect for wellness centers and organic brands.",
   "category": "wellness",
-  "tags": [
-    "wellness",
-    "natural",
-    "organic",
-    "holistic",
-    "earth-tones",
-    "calming",
-    "botanical",
-    "light-theme"
-  ],
+  "tags": ["wellness", "natural", "organic", "holistic", "earth-tones", "calming", "botanical", "light-theme"],
   "features": [
-    "Natural earth tone color palette with organic feel",
-    "Lora + Montserrat typography for elegant readability",
+    "Natural earth tone color palette",
+    "Lora + Montserrat typography pairing",
     "Spacious layouts with breathing room",
-    "Product category showcase",
-    "Customer testimonials section",
-    "Benefits highlight with icon cards",
-    "Responsive mobile-first design",
-    "Light theme with dark hero overlay"
+    "Patient testimonials section",
+    "Product category showcase"
   ],
-  "sections": [
-    "HeroFullScreen",
-    "ValueProps",
-    "ProductShowcase",
-    "Testimonials",
-    "CTABanner"
-  ],
-  "navigation": "NavFull",
-  "footer": "FooterFull",
-  "price": 0,
-  "isPremium": false,
-  "isActive": true,
-  "customization": {
-    "colors": {
-      "primary": "#6B8E23",
-      "secondary": "#3C2F24",
-      "accent": "#8B7355"
-    },
-    "fonts": {
-      "base": "'Montserrat', sans-serif",
-      "heading": "'Lora', serif"
-    }
-  },
-  "accessibility": {
-    "wcag_level": "AA",
-    "screen_reader_tested": true
-  }
+  "author": "BudStacks Platform",
+  "version": "2.0.0"
 }

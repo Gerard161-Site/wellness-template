@@ -1,35 +1,123 @@
 {
-    "version": "1.0.0",
-    "navigation": "NavFull",
-    "sections": [
-        {
-            "type": "HeroFullScreen",
-            "id": "hero",
-            "config": {
-                "textAlign": "left"
-            }
-        },
-        {
-            "type": "ValueProps",
-            "id": "benefits"
-        },
-        {
-            "type": "ProductShowcase",
-            "id": "product-categories"
-        },
-        {
-            "type": "Testimonials",
-            "id": "testimonials"
-        },
-        {
-            "type": "CTABanner",
-            "id": "cta"
-        }
-    ],
-    "footer": "FooterFull",
-    "settings": {
-        "wrapperClass": "template-wellness-nature",
-        "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap",
-        "sectionPadding": "3rem/4rem/5rem"
+  "version": "1.0.0",
+  "navigation": "NavFull",
+  "sections": [
+    {
+      "type": "HeroFullScreen",
+      "id": "hero",
+      "config": {
+        "title": "Natural Wellness, Naturally Delivered",
+        "subtitle": "Your trusted source for organic wellness",
+        "description": "Discover the healing power of nature with our premium organic wellness products, expertly curated for your holistic health journey.",
+        "textAlign": "left",
+        "heroType": "gradient-image",
+        "ctaText": "Book Consultation",
+        "secondaryCtaText": "Our Products",
+        "secondaryCtaHref": "/products"
+      }
+    },
+    {
+      "type": "ValueProps",
+      "id": "benefits",
+      "config": {
+        "heading": "Why Choose Natural",
+        "subtitle": "Pure wellness, rooted in nature",
+        "items": [
+          {
+            "title": "100% Organic",
+            "description": "Sourced from certified organic farms with sustainable practices.",
+            "icon": "Leaf"
+          },
+          {
+            "title": "Natural Ingredients",
+            "description": "Pure botanical extracts with no artificial additives.",
+            "icon": "Sprout"
+          },
+          {
+            "title": "Wellness Experts",
+            "description": "Guided by naturopaths and holistic health professionals.",
+            "icon": "Heart"
+          },
+          {
+            "title": "Eco-Friendly",
+            "description": "Sustainable packaging and carbon-neutral delivery.",
+            "icon": "Globe"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ProductShowcase",
+      "id": "product-categories",
+      "config": {
+        "heading": "Our Products",
+        "subtitle": "Curated for your holistic health journey",
+        "categories": [
+          {
+            "title": "Oils & Tinctures",
+            "description": "Premium botanical extracts for daily wellness.",
+            "href": "/products?category=oils"
+          },
+          {
+            "title": "Dried Flower",
+            "description": "Organic, hand-trimmed flower in healing strains.",
+            "href": "/products?category=flower"
+          },
+          {
+            "title": "Topicals",
+            "description": "Soothing balms and creams for targeted relief.",
+            "href": "/products?category=topicals"
+          },
+          {
+            "title": "Wellness Blends",
+            "description": "Custom formulations for sleep, stress, and recovery.",
+            "href": "/products?category=blends"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Testimonials",
+      "id": "testimonials",
+      "config": {
+        "heading": "Patient Stories",
+        "subtitle": "Real experiences from our wellness community",
+        "items": [
+          {
+            "quote": "The natural approach changed everything for me. I sleep better and feel more balanced than I have in years.",
+            "author": "Sarah M.",
+            "role": "Wellness Patient",
+            "rating": 5
+          },
+          {
+            "quote": "Finally found a provider that understands holistic health. The consultation was thorough and the products are exceptional.",
+            "author": "James K.",
+            "role": "Long-term Patient",
+            "rating": 5
+          },
+          {
+            "quote": "Sustainable, organic, and effective. Everything I was looking for in a cannabis wellness provider.",
+            "author": "Priya D.",
+            "role": "New Patient",
+            "rating": 5
+          }
+        ]
+      }
+    },
+    {
+      "type": "CTABanner",
+      "id": "cta",
+      "config": {
+        "heading": "Begin Your Wellness Journey",
+        "subtitle": "Book a free consultation with one of our wellness experts today.",
+        "ctaText": "Book Consultation"
+      }
     }
+  ],
+  "footer": "FooterFull",
+  "settings": {
+    "wrapperClass": "template-wellness-nature",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap",
+    "sectionPadding": "3rem/4rem/5rem"
+  }
 }

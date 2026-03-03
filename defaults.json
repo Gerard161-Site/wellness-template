@@ -8,7 +8,7 @@
   "fontFamily": "'Lora', serif",
   "designSystem": {
     "colors": {
-      "wellness": {
+      "primary-scale": {
         "50": "79 55% 97%",
         "100": "79 50% 92%",
         "200": "79 48% 82%",
@@ -19,18 +19,6 @@
         "700": "79 45% 32%",
         "800": "79 42% 22%",
         "900": "79 40% 14%"
-      },
-      "earth": {
-        "50": "30 40% 97%",
-        "100": "30 35% 92%",
-        "200": "30 32% 82%",
-        "300": "30 30% 70%",
-        "400": "30 28% 58%",
-        "500": "30 26% 30%",
-        "600": "30 28% 25%",
-        "700": "30 30% 20%",
-        "800": "30 32% 15%",
-        "900": "30 35% 10%"
       },
       "primary": "79 51% 52%",
       "secondary": "30 26% 30%",
@@ -131,7 +119,7 @@
     {
       "title": "Natural Ingredients",
       "description": "Pure botanical extracts with no artificial additives",
-      "icon": "Flower2"
+      "icon": "Sprout"
     },
     {
       "title": "Wellness Experts",
@@ -141,7 +129,7 @@
     {
       "title": "Eco-Friendly",
       "description": "Sustainable packaging and carbon-neutral delivery",
-      "icon": "Recycle"
+      "icon": "Globe"
     }
   ],
   "pageContent": {
@@ -175,7 +163,7 @@
     }
   },
   "footer": {
-    "copyright": "© {year} {businessName}. All rights reserved.",
+    "tagline": "Natural Wellness, Naturally Delivered.",
     "disclaimer": "These statements have not been evaluated by the FDA. Products are not intended to diagnose, treat, cure, or prevent any disease. Consult with a healthcare professional before use.",
     "sections": [
       {
